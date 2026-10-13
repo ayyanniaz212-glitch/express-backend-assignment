@@ -5,7 +5,7 @@
   "devDependencies": {
     "@types/bun": "latest"
   },
-  "peerDependencies": {     
+  "peerDependencies": {
     "typescript": "^7"
   },
   "dependencies": {

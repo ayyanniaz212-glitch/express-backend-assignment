@@ -15,7 +15,7 @@ app.use(
 
 app.use(express.json());
 
-app.get('/api/health', (req, res) => {
+app.get('/', (req, res) => {
   res.status(200).json({
     status: 'online',
     timestamp: new Date().toISOString(),
